@@ -3,7 +3,7 @@ import time
 from flask import Flask , request , render_template
 import pandas as pd
 
-
+'''
 ##AWS access key , security key and region 
 AWS_ACCESS_KEY_ID = "AKIAXWMA6OEDHA7RVAW2"
 AWS_SECRET_ACCESS_KEY = "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"
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     time.sleep(60)
     elastic_ip = allocate_elastic_ip(instance_id)
     
-    print(f"EC2 instance {instance_id} running with elastic ip {elastic_ip}")
+    print(f"EC2 instance {instance_id} running with elastic ip {elastic_ip}")'''
 
 
 app = Flask(__name__)
