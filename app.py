@@ -5,8 +5,8 @@ import pandas as pd
 
 '''
 ##AWS access key , security key and region 
-AWS_ACCESS_KEY_ID = "AKIAXWMA6OEDHA7RVAW2"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 REGION = 'us-east-1'
 flag=False
 
